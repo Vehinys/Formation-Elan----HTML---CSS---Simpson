@@ -1,0 +1,102 @@
+/* Généraux */
+
+*{
+    margin: 0;
+    box-sizing:border-box;
+}    
+/* Body */
+
+body{
+    background-color: rgb(255, 207, 0);
+}
+/* wapper*/
+
+#wapper{
+    width: 75%;
+    margin: auto;
+}
+/* Header */
+
+header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.image1{
+        width: 100%;
+        text-align: center;
+        vertical-align: top;
+}
+figure{
+    width:100%
+}
+
+/* Containe*/
+
+main{
+    background-color: white;
+    display: flex;
+    padding: 20px 10px;
+}
+nav{
+    background-color: blue;
+    display: block;     
+    height: fit-content;
+}   
+ul{
+    list-style-type: none;
+    width: 160px;
+    padding: 5% 0;
+    text-align: center;
+
+}*
+li{
+    padding-bottom: 2%;
+}
+.lien{
+    color: white;
+}
+/* Article */
+
+.yellow{
+    color: rgb(255, 207, 0);
+    padding-top: 3%;
+    width: 90%;
+    padding-bottom: 2%;
+    margin: auto;
+}
+p{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+/* aside */
+
+aside{
+    background-color: blue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.biography{
+    color: white;
+    text-align: center;
+    width: 200px;
+    background-color: blue;
+}
+.image2{
+    width: 100px;
+    text-align: center;
+    border: 3px solid white;
+}
+h3{
+    padding-bottom: 10px;
+    background-color: blue;
+}
+/* Footer */
+
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
